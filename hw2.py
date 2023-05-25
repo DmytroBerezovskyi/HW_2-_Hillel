@@ -95,10 +95,6 @@ def mean():
 
     average_height = height_cm / int(last_index)
     average_weight = weight_kg / int(last_index)
-    # return f'Avegare height:{avegare_height} Avegare weight:{avegare_weight}'
-    # return jsonify((f'Avegare height:{avegare_height} cm'
-    #                 f'  '
-    #                 f'Avegare weight:{avegare_weight} kg'))
     return f'''
                 <html>
                 <body>
